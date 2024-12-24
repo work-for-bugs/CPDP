@@ -1,1 +1,2 @@
-# 把cpg中的词映射成词向量
+from gensim.models import Word2Vec
+import os
