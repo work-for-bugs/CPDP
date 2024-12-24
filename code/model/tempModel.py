@@ -6,7 +6,7 @@ from torch_geometric.nn import GCNConv
 from torch_geometric.nn import GatedGraphConv
 
 from graph_transformer_layers import GraphTransformerLayer
-from mlp_readout import MLPReadout
+from model.mlp_readout import MLPReadout
 
 
 class GCN(nn.Module):
