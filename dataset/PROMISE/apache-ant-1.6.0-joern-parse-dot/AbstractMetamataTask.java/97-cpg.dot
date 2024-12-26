@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.arrayInitializer" {  
+"111669149793" [label = <(METHOD,&lt;operator&gt;.arrayInitializer)> ]
+"115964117198" [label = <(PARAM,p1)> ]
+"25769803908" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018977" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149793" -> "115964117198"  [ label = "AST: "] 
+  "111669149793" -> "25769803908"  [ label = "AST: "] 
+  "111669149793" -> "128849018977"  [ label = "AST: "] 
+  "111669149793" -> "128849018977"  [ label = "CFG: "] 
+  "115964117198" -> "128849018977"  [ label = "DDG: p1"] 
+  "111669149793" -> "115964117198"  [ label = "DDG: "] 
+}

@@ -1,0 +1,18 @@
+digraph "markSupported" {  
+"111669149702" [label = <(METHOD,markSupported)<SUB>211</SUB>> ]
+"115964117005" [label = <(PARAM,this)<SUB>211</SUB>> ]
+"25769803807" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>211</SUB>> ]
+"146028888072" [label = <(RETURN,return false;,return false;)<SUB>212</SUB>> ]
+"90194313243" [label = <(LITERAL,false,return false;)<SUB>212</SUB>> ]
+"133143986192" [label = <(MODIFIER,PUBLIC)> ]
+"133143986193" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018886" [label = <(METHOD_RETURN,boolean)<SUB>211</SUB>> ]
+  "111669149702" -> "115964117005"  [ label = "AST: "] 
+  "111669149702" -> "25769803807"  [ label = "AST: "] 
+  "111669149702" -> "133143986192"  [ label = "AST: "] 
+  "111669149702" -> "133143986193"  [ label = "AST: "] 
+  "111669149702" -> "128849018886"  [ label = "AST: "] 
+  "25769803807" -> "146028888072"  [ label = "AST: "] 
+  "146028888072" -> "90194313243"  [ label = "AST: "] 
+  "111669149702" -> "115964117005"  [ label = "DDG: "] 
+}

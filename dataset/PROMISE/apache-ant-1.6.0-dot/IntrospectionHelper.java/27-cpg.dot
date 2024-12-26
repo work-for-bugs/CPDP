@@ -1,0 +1,16 @@
+digraph "getElementClass" {  
+"111669149723" [label = <(METHOD,getElementClass)<SUB>1206</SUB>> ]
+"115964117112" [label = <(PARAM,this)<SUB>1206</SUB>> ]
+"25769803937" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"133143986248" [label = <(MODIFIER,PUBLIC)> ]
+"133143986249" [label = <(MODIFIER,ABSTRACT)> ]
+"133143986250" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018907" [label = <(METHOD_RETURN,java.lang.Class)<SUB>1206</SUB>> ]
+  "111669149723" -> "115964117112"  [ label = "AST: "] 
+  "111669149723" -> "25769803937"  [ label = "AST: "] 
+  "111669149723" -> "133143986248"  [ label = "AST: "] 
+  "111669149723" -> "133143986249"  [ label = "AST: "] 
+  "111669149723" -> "133143986250"  [ label = "AST: "] 
+  "111669149723" -> "128849018907"  [ label = "AST: "] 
+  "111669149723" -> "115964117112"  [ label = "DDG: "] 
+}

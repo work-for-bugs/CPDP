@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.arithmeticShiftRight" {  
+"111669149749" [label = <(METHOD,&lt;operator&gt;.arithmeticShiftRight)> ]
+"115964117066" [label = <(PARAM,p1)> ]
+"115964117067" [label = <(PARAM,p2)> ]
+"25769803953" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018933" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149749" -> "115964117066"  [ label = "AST: "] 
+  "111669149749" -> "25769803953"  [ label = "AST: "] 
+  "111669149749" -> "115964117067"  [ label = "AST: "] 
+  "111669149749" -> "128849018933"  [ label = "AST: "] 
+  "111669149749" -> "128849018933"  [ label = "CFG: "] 
+  "115964117066" -> "128849018933"  [ label = "DDG: p1"] 
+  "115964117067" -> "128849018933"  [ label = "DDG: p2"] 
+  "111669149749" -> "115964117066"  [ label = "DDG: "] 
+  "111669149749" -> "115964117067"  [ label = "DDG: "] 
+}

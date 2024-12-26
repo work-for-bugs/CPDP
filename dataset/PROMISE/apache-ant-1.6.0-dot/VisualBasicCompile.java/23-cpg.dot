@@ -1,0 +1,18 @@
+digraph "getFileExtension" {  
+"111669149719" [label = <(METHOD,getFileExtension)<SUB>378</SUB>> ]
+"115964117023" [label = <(PARAM,this)<SUB>378</SUB>> ]
+"25769803809" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>378</SUB>> ]
+"146028888082" [label = <(RETURN,return &quot;vb&quot;;,return &quot;vb&quot;;)<SUB>379</SUB>> ]
+"90194313254" [label = <(LITERAL,&quot;vb&quot;,return &quot;vb&quot;;)<SUB>379</SUB>> ]
+"133143986228" [label = <(MODIFIER,PUBLIC)> ]
+"133143986229" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018903" [label = <(METHOD_RETURN,java.lang.String)<SUB>378</SUB>> ]
+  "111669149719" -> "115964117023"  [ label = "AST: "] 
+  "111669149719" -> "25769803809"  [ label = "AST: "] 
+  "111669149719" -> "133143986228"  [ label = "AST: "] 
+  "111669149719" -> "133143986229"  [ label = "AST: "] 
+  "111669149719" -> "128849018903"  [ label = "AST: "] 
+  "25769803809" -> "146028888082"  [ label = "AST: "] 
+  "146028888082" -> "90194313254"  [ label = "AST: "] 
+  "111669149719" -> "115964117023"  [ label = "DDG: "] 
+}

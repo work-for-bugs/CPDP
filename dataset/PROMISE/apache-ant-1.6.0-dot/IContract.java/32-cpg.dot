@@ -1,0 +1,17 @@
+digraph "setJavac" {  
+"111669149728" [label = <(METHOD,setJavac)<SUB>969</SUB>> ]
+"115964117052" [label = <(PARAM,this)<SUB>969</SUB>> ]
+"115964117053" [label = <(PARAM,Javac javac)<SUB>969</SUB>> ]
+"25769803888" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>969</SUB>> ]
+"133143986267" [label = <(MODIFIER,PUBLIC)> ]
+"133143986268" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018912" [label = <(METHOD_RETURN,void)<SUB>969</SUB>> ]
+  "111669149728" -> "115964117052"  [ label = "AST: "] 
+  "111669149728" -> "115964117053"  [ label = "AST: "] 
+  "111669149728" -> "25769803888"  [ label = "AST: "] 
+  "111669149728" -> "133143986267"  [ label = "AST: "] 
+  "111669149728" -> "133143986268"  [ label = "AST: "] 
+  "111669149728" -> "128849018912"  [ label = "AST: "] 
+  "111669149728" -> "115964117052"  [ label = "DDG: "] 
+  "111669149728" -> "115964117053"  [ label = "DDG: "] 
+}

@@ -1,0 +1,72 @@
+digraph "getEmptyChangeList" {  
+"111669149697" [label = <(METHOD,getEmptyChangeList)<SUB>124</SUB>> ]
+"115964117001" [label = <(PARAM,this)<SUB>124</SUB>> ]
+"25769803778" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>124</SUB>> ]
+"94489280514" [label = <(LOCAL,StringBuffer stringbuf: java.lang.StringBuffer)<SUB>125</SUB>> ]
+"30064771086" [label = <(&lt;operator&gt;.assignment,StringBuffer stringbuf = new StringBuffer())<SUB>125</SUB>> ]
+"68719476765" [label = <(IDENTIFIER,stringbuf,StringBuffer stringbuf = new StringBuffer())<SUB>125</SUB>> ]
+"30064771087" [label = <(&lt;operator&gt;.alloc,new StringBuffer())<SUB>125</SUB>> ]
+"30064771088" [label = <(&lt;init&gt;,new StringBuffer())<SUB>125</SUB>> ]
+"68719476766" [label = <(IDENTIFIER,stringbuf,new StringBuffer())<SUB>125</SUB>> ]
+"30064771089" [label = <(execP4Command,execP4Command(&quot;change -o&quot;, new P4HandlerAdapter...)<SUB>127</SUB>> ]
+"68719476750" [label = <(IDENTIFIER,this,execP4Command(&quot;change -o&quot;, new P4HandlerAdapter...)<SUB>127</SUB>> ]
+"90194313218" [label = <(LITERAL,&quot;change -o&quot;,execP4Command(&quot;change -o&quot;, new P4HandlerAdapter...)<SUB>127</SUB>> ]
+"25769803779" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>127</SUB>> ]
+"94489280515" [label = <(LOCAL,$obj1: org.apache.tools.ant.taskdefs.optional.perforce.P4Change.getEmptyChangeList.P4HandlerAdapter$0)<SUB>127</SUB>> ]
+"30064771090" [label = <(&lt;operator&gt;.assignment,$obj1 = new P4HandlerAdapter() {
+
+    public ...)<SUB>127</SUB>> ]
+"68719476767" [label = <(IDENTIFIER,$obj1,$obj1 = new P4HandlerAdapter() {
+
+    public ...)<SUB>127</SUB>> ]
+"30064771091" [label = <(&lt;operator&gt;.alloc,new P4HandlerAdapter() {
+
+    public void pro...)<SUB>127</SUB>> ]
+"30064771073" [label = <(&lt;init&gt;,new P4HandlerAdapter() {
+
+    public void pro...)<SUB>127</SUB>> ]
+"68719476755" [label = <(IDENTIFIER,$obj1,new P4HandlerAdapter() {
+
+    public void pro...)<SUB>127</SUB>> ]
+"68719476757" [label = <(IDENTIFIER,this,new P4HandlerAdapter() {
+
+    public void pro...)<SUB>127</SUB>> ]
+"68719476756" [label = <(IDENTIFIER,stringbuf,new P4HandlerAdapter() {
+
+    public void pro...)<SUB>127</SUB>> ]
+"68719476768" [label = <(IDENTIFIER,$obj1,&lt;empty&gt;)<SUB>127</SUB>> ]
+"146028888064" [label = <(RETURN,return stringbuf.toString();,return stringbuf.toString();)<SUB>148</SUB>> ]
+"30064771092" [label = <(toString,stringbuf.toString())<SUB>148</SUB>> ]
+"68719476769" [label = <(IDENTIFIER,stringbuf,stringbuf.toString())<SUB>148</SUB>> ]
+"133143986180" [label = <(MODIFIER,PUBLIC)> ]
+"133143986181" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018881" [label = <(METHOD_RETURN,java.lang.String)<SUB>124</SUB>> ]
+  "111669149697" -> "115964117001"  [ label = "AST: "] 
+  "111669149697" -> "25769803778"  [ label = "AST: "] 
+  "111669149697" -> "133143986180"  [ label = "AST: "] 
+  "111669149697" -> "133143986181"  [ label = "AST: "] 
+  "111669149697" -> "128849018881"  [ label = "AST: "] 
+  "25769803778" -> "94489280514"  [ label = "AST: "] 
+  "25769803778" -> "30064771086"  [ label = "AST: "] 
+  "25769803778" -> "30064771088"  [ label = "AST: "] 
+  "25769803778" -> "30064771089"  [ label = "AST: "] 
+  "25769803778" -> "146028888064"  [ label = "AST: "] 
+  "30064771086" -> "68719476765"  [ label = "AST: "] 
+  "30064771086" -> "30064771087"  [ label = "AST: "] 
+  "30064771088" -> "68719476766"  [ label = "AST: "] 
+  "30064771089" -> "68719476750"  [ label = "AST: "] 
+  "30064771089" -> "90194313218"  [ label = "AST: "] 
+  "30064771089" -> "25769803779"  [ label = "AST: "] 
+  "25769803779" -> "94489280515"  [ label = "AST: "] 
+  "25769803779" -> "30064771090"  [ label = "AST: "] 
+  "25769803779" -> "30064771073"  [ label = "AST: "] 
+  "25769803779" -> "68719476768"  [ label = "AST: "] 
+  "30064771090" -> "68719476767"  [ label = "AST: "] 
+  "30064771090" -> "30064771091"  [ label = "AST: "] 
+  "30064771073" -> "68719476755"  [ label = "AST: "] 
+  "30064771073" -> "68719476757"  [ label = "AST: "] 
+  "30064771073" -> "68719476756"  [ label = "AST: "] 
+  "146028888064" -> "30064771092"  [ label = "AST: "] 
+  "30064771092" -> "68719476769"  [ label = "AST: "] 
+  "111669149697" -> "115964117001"  [ label = "DDG: "] 
+}

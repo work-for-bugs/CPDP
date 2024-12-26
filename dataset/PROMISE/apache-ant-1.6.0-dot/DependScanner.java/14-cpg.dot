@@ -1,0 +1,17 @@
+digraph "setCaseSensitive" {  
+"111669149710" [label = <(METHOD,setCaseSensitive)<SUB>252</SUB>> ]
+"115964117011" [label = <(PARAM,this)<SUB>252</SUB>> ]
+"115964117012" [label = <(PARAM,boolean isCaseSensitive)<SUB>252</SUB>> ]
+"25769803799" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>252</SUB>> ]
+"133143986210" [label = <(MODIFIER,PUBLIC)> ]
+"133143986211" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018894" [label = <(METHOD_RETURN,void)<SUB>252</SUB>> ]
+  "111669149710" -> "115964117011"  [ label = "AST: "] 
+  "111669149710" -> "115964117012"  [ label = "AST: "] 
+  "111669149710" -> "25769803799"  [ label = "AST: "] 
+  "111669149710" -> "133143986210"  [ label = "AST: "] 
+  "111669149710" -> "133143986211"  [ label = "AST: "] 
+  "111669149710" -> "128849018894"  [ label = "AST: "] 
+  "111669149710" -> "115964117011"  [ label = "DDG: "] 
+  "111669149710" -> "115964117012"  [ label = "DDG: "] 
+}

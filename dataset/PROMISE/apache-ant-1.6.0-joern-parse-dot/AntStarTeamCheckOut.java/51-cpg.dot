@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.minus" {  
+"111669149747" [label = <(METHOD,&lt;operator&gt;.minus)> ]
+"115964117088" [label = <(PARAM,p1)> ]
+"25769803877" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018931" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149747" -> "115964117088"  [ label = "AST: "] 
+  "111669149747" -> "25769803877"  [ label = "AST: "] 
+  "111669149747" -> "128849018931"  [ label = "AST: "] 
+  "111669149747" -> "128849018931"  [ label = "CFG: "] 
+  "115964117088" -> "128849018931"  [ label = "DDG: p1"] 
+  "111669149747" -> "115964117088"  [ label = "DDG: "] 
+}

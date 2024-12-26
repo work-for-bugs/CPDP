@@ -1,0 +1,29 @@
+digraph "&lt;init&gt;" {  
+"111669149728" [label = <(METHOD,&lt;init&gt;)<SUB>526</SUB>> ]
+"115964117021" [label = <(PARAM,this)<SUB>526</SUB>> ]
+"115964117022" [label = <(PARAM,OutputStream out)<SUB>526</SUB>> ]
+"25769803844" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>526</SUB>> ]
+"30064771077" [label = <(&lt;init&gt;,// deprecated, but email is byte-oriented
+supe...)<SUB>527</SUB>> ]
+"68719476786" [label = <(IDENTIFIER,this,// deprecated, but email is byte-oriented
+supe...)> ]
+"68719476787" [label = <(IDENTIFIER,out,// deprecated, but email is byte-oriented
+supe...)<SUB>527</SUB>> ]
+"90194313216" [label = <(LITERAL,true,// deprecated, but email is byte-oriented
+supe...)<SUB>527</SUB>> ]
+"133143986254" [label = <(MODIFIER,CONSTRUCTOR)> ]
+"133143986255" [label = <(MODIFIER,PUBLIC)> ]
+"128849018912" [label = <(METHOD_RETURN,void)<SUB>528</SUB>> ]
+  "111669149728" -> "115964117021"  [ label = "AST: "] 
+  "111669149728" -> "115964117022"  [ label = "AST: "] 
+  "111669149728" -> "25769803844"  [ label = "AST: "] 
+  "111669149728" -> "133143986254"  [ label = "AST: "] 
+  "111669149728" -> "133143986255"  [ label = "AST: "] 
+  "111669149728" -> "128849018912"  [ label = "AST: "] 
+  "25769803844" -> "30064771077"  [ label = "AST: "] 
+  "30064771077" -> "68719476786"  [ label = "AST: "] 
+  "30064771077" -> "68719476787"  [ label = "AST: "] 
+  "30064771077" -> "90194313216"  [ label = "AST: "] 
+  "111669149728" -> "115964117021"  [ label = "DDG: "] 
+  "111669149728" -> "115964117022"  [ label = "DDG: "] 
+}

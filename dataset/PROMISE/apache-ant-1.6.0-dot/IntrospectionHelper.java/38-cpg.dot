@@ -1,0 +1,17 @@
+digraph "messageLogged" {  
+"111669149734" [label = <(METHOD,messageLogged)<SUB>1284</SUB>> ]
+"115964117137" [label = <(PARAM,this)<SUB>1284</SUB>> ]
+"115964117138" [label = <(PARAM,BuildEvent event)<SUB>1284</SUB>> ]
+"25769803948" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>1284</SUB>> ]
+"133143986279" [label = <(MODIFIER,PUBLIC)> ]
+"133143986280" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018918" [label = <(METHOD_RETURN,void)<SUB>1284</SUB>> ]
+  "111669149734" -> "115964117137"  [ label = "AST: "] 
+  "111669149734" -> "115964117138"  [ label = "AST: "] 
+  "111669149734" -> "25769803948"  [ label = "AST: "] 
+  "111669149734" -> "133143986279"  [ label = "AST: "] 
+  "111669149734" -> "133143986280"  [ label = "AST: "] 
+  "111669149734" -> "128849018918"  [ label = "AST: "] 
+  "111669149734" -> "115964117137"  [ label = "DDG: "] 
+  "111669149734" -> "115964117138"  [ label = "DDG: "] 
+}

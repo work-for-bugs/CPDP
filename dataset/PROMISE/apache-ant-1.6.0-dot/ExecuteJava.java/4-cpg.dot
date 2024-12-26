@@ -1,0 +1,17 @@
+digraph "setOutput" {  
+"111669149700" [label = <(METHOD,setOutput)<SUB>124</SUB>> ]
+"115964117004" [label = <(PARAM,this)<SUB>124</SUB>> ]
+"115964117005" [label = <(PARAM,PrintStream out)<SUB>124</SUB>> ]
+"25769803780" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>124</SUB>> ]
+"133143986193" [label = <(MODIFIER,PUBLIC)> ]
+"133143986194" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018884" [label = <(METHOD_RETURN,void)<SUB>124</SUB>> ]
+  "111669149700" -> "115964117004"  [ label = "AST: "] 
+  "111669149700" -> "115964117005"  [ label = "AST: "] 
+  "111669149700" -> "25769803780"  [ label = "AST: "] 
+  "111669149700" -> "133143986193"  [ label = "AST: "] 
+  "111669149700" -> "133143986194"  [ label = "AST: "] 
+  "111669149700" -> "128849018884"  [ label = "AST: "] 
+  "111669149700" -> "115964117004"  [ label = "DDG: "] 
+  "111669149700" -> "115964117005"  [ label = "DDG: "] 
+}

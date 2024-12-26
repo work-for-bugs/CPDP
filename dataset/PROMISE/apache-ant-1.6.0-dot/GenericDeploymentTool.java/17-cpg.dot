@@ -1,0 +1,17 @@
+digraph "registerKnownDTDs" {  
+"111669149713" [label = <(METHOD,registerKnownDTDs)<SUB>413</SUB>> ]
+"115964117027" [label = <(PARAM,this)<SUB>413</SUB>> ]
+"115964117028" [label = <(PARAM,DescriptorHandler handler)<SUB>413</SUB>> ]
+"25769803816" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>413</SUB>> ]
+"133143986237" [label = <(MODIFIER,PROTECTED)> ]
+"133143986238" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018897" [label = <(METHOD_RETURN,void)<SUB>413</SUB>> ]
+  "111669149713" -> "115964117027"  [ label = "AST: "] 
+  "111669149713" -> "115964117028"  [ label = "AST: "] 
+  "111669149713" -> "25769803816"  [ label = "AST: "] 
+  "111669149713" -> "133143986237"  [ label = "AST: "] 
+  "111669149713" -> "133143986238"  [ label = "AST: "] 
+  "111669149713" -> "128849018897"  [ label = "AST: "] 
+  "111669149713" -> "115964117027"  [ label = "DDG: "] 
+  "111669149713" -> "115964117028"  [ label = "DDG: "] 
+}

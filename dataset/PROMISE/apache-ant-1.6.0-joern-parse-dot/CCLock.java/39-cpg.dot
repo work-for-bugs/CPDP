@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.throw" {  
+"111669149735" [label = <(METHOD,&lt;operator&gt;.throw)> ]
+"115964117063" [label = <(PARAM,p1)> ]
+"25769803829" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018919" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149735" -> "115964117063"  [ label = "AST: "] 
+  "111669149735" -> "25769803829"  [ label = "AST: "] 
+  "111669149735" -> "128849018919"  [ label = "AST: "] 
+  "111669149735" -> "128849018919"  [ label = "CFG: "] 
+  "115964117063" -> "128849018919"  [ label = "DDG: p1"] 
+  "111669149735" -> "115964117063"  [ label = "DDG: "] 
+}

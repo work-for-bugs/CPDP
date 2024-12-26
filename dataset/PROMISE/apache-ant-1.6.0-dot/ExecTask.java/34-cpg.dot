@@ -1,0 +1,14 @@
+digraph "logFlush" {  
+"111669149730" [label = <(METHOD,logFlush)<SUB>645</SUB>> ]
+"115964117054" [label = <(PARAM,this)<SUB>645</SUB>> ]
+"25769803858" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>645</SUB>> ]
+"133143986259" [label = <(MODIFIER,PROTECTED)> ]
+"133143986260" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018914" [label = <(METHOD_RETURN,void)<SUB>645</SUB>> ]
+  "111669149730" -> "115964117054"  [ label = "AST: "] 
+  "111669149730" -> "25769803858"  [ label = "AST: "] 
+  "111669149730" -> "133143986259"  [ label = "AST: "] 
+  "111669149730" -> "133143986260"  [ label = "AST: "] 
+  "111669149730" -> "128849018914"  [ label = "AST: "] 
+  "111669149730" -> "115964117054"  [ label = "DDG: "] 
+}

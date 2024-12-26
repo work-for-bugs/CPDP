@@ -1,0 +1,18 @@
+digraph "isPolyMorphic" {  
+"111669149773" [label = <(METHOD,isPolyMorphic)<SUB>335</SUB>> ]
+"115964117209" [label = <(PARAM,this)<SUB>335</SUB>> ]
+"25769804019" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>335</SUB>> ]
+"146028888116" [label = <(RETURN,return true;,return true;)<SUB>336</SUB>> ]
+"90194313349" [label = <(LITERAL,true,return true;)<SUB>336</SUB>> ]
+"133143986356" [label = <(MODIFIER,PUBLIC)> ]
+"133143986357" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018957" [label = <(METHOD_RETURN,boolean)<SUB>335</SUB>> ]
+  "111669149773" -> "115964117209"  [ label = "AST: "] 
+  "111669149773" -> "25769804019"  [ label = "AST: "] 
+  "111669149773" -> "133143986356"  [ label = "AST: "] 
+  "111669149773" -> "133143986357"  [ label = "AST: "] 
+  "111669149773" -> "128849018957"  [ label = "AST: "] 
+  "25769804019" -> "146028888116"  [ label = "AST: "] 
+  "146028888116" -> "90194313349"  [ label = "AST: "] 
+  "111669149773" -> "115964117209"  [ label = "DDG: "] 
+}

@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.alloc" {  
+"111669149738" [label = <(METHOD,&lt;operator&gt;.alloc)> ]
+"115964117072" [label = <(PARAM,p1)> ]
+"25769804054" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018922" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149738" -> "115964117072"  [ label = "AST: "] 
+  "111669149738" -> "25769804054"  [ label = "AST: "] 
+  "111669149738" -> "128849018922"  [ label = "AST: "] 
+  "111669149738" -> "128849018922"  [ label = "CFG: "] 
+  "115964117072" -> "128849018922"  [ label = "DDG: p1"] 
+  "111669149738" -> "115964117072"  [ label = "DDG: "] 
+}

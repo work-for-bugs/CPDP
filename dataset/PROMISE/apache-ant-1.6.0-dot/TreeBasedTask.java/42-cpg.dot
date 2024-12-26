@@ -1,0 +1,16 @@
+digraph "isActive" {  
+"111669149738" [label = <(METHOD,isActive)<SUB>907</SUB>> ]
+"115964117060" [label = <(PARAM,this)<SUB>907</SUB>> ]
+"25769803873" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"133143986276" [label = <(MODIFIER,PROTECTED)> ]
+"133143986277" [label = <(MODIFIER,ABSTRACT)> ]
+"133143986278" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018922" [label = <(METHOD_RETURN,boolean)<SUB>907</SUB>> ]
+  "111669149738" -> "115964117060"  [ label = "AST: "] 
+  "111669149738" -> "25769803873"  [ label = "AST: "] 
+  "111669149738" -> "133143986276"  [ label = "AST: "] 
+  "111669149738" -> "133143986277"  [ label = "AST: "] 
+  "111669149738" -> "133143986278"  [ label = "AST: "] 
+  "111669149738" -> "128849018922"  [ label = "AST: "] 
+  "111669149738" -> "115964117060"  [ label = "DDG: "] 
+}

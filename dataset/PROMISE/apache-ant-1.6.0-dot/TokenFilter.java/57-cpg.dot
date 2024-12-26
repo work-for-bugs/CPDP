@@ -1,0 +1,62 @@
+digraph "chain" {  
+"111669149753" [label = <(METHOD,chain)<SUB>819</SUB>> ]
+"115964117024" [label = <(PARAM,this)<SUB>819</SUB>> ]
+"115964117023" [label = <(PARAM,Reader reader)<SUB>819</SUB>> ]
+"25769803888" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>819</SUB>> ]
+"146028888092" [label = <(RETURN,return new BaseFilterReader(reader) {
+
+    pu...,return new BaseFilterReader(reader) {
+
+    pu...)<SUB>820</SUB>> ]
+"25769803889" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>820</SUB>> ]
+"94489280536" [label = <(LOCAL,$obj6: org.apache.tools.ant.filters.TokenFilter$DeleteCharacters.chain.BaseFilterReader$0)<SUB>820</SUB>> ]
+"30064771500" [label = <(&lt;operator&gt;.assignment,$obj6 = new BaseFilterReader(reader) {
+
+    /...)<SUB>820</SUB>> ]
+"68719477069" [label = <(IDENTIFIER,$obj6,$obj6 = new BaseFilterReader(reader) {
+
+    /...)<SUB>820</SUB>> ]
+"30064771501" [label = <(&lt;operator&gt;.alloc,new BaseFilterReader(reader) {
+
+    /**
+    ...)<SUB>820</SUB>> ]
+"30064771072" [label = <(&lt;init&gt;,new BaseFilterReader(reader) {
+
+    /**
+    ...)<SUB>820</SUB>> ]
+"68719476771" [label = <(IDENTIFIER,$obj6,new BaseFilterReader(reader) {
+
+    /**
+    ...)<SUB>820</SUB>> ]
+"68719476772" [label = <(IDENTIFIER,reader,new BaseFilterReader(reader) {
+
+    /**
+    ...)<SUB>820</SUB>> ]
+"68719476773" [label = <(IDENTIFIER,this,new BaseFilterReader(reader) {
+
+    /**
+    ...)<SUB>820</SUB>> ]
+"68719477070" [label = <(IDENTIFIER,$obj6,&lt;empty&gt;)<SUB>820</SUB>> ]
+"133143986335" [label = <(MODIFIER,PUBLIC)> ]
+"133143986336" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018937" [label = <(METHOD_RETURN,java.io.Reader)<SUB>819</SUB>> ]
+  "111669149753" -> "115964117024"  [ label = "AST: "] 
+  "111669149753" -> "115964117023"  [ label = "AST: "] 
+  "111669149753" -> "25769803888"  [ label = "AST: "] 
+  "111669149753" -> "133143986335"  [ label = "AST: "] 
+  "111669149753" -> "133143986336"  [ label = "AST: "] 
+  "111669149753" -> "128849018937"  [ label = "AST: "] 
+  "25769803888" -> "146028888092"  [ label = "AST: "] 
+  "146028888092" -> "25769803889"  [ label = "AST: "] 
+  "25769803889" -> "94489280536"  [ label = "AST: "] 
+  "25769803889" -> "30064771500"  [ label = "AST: "] 
+  "25769803889" -> "30064771072"  [ label = "AST: "] 
+  "25769803889" -> "68719477070"  [ label = "AST: "] 
+  "30064771500" -> "68719477069"  [ label = "AST: "] 
+  "30064771500" -> "30064771501"  [ label = "AST: "] 
+  "30064771072" -> "68719476771"  [ label = "AST: "] 
+  "30064771072" -> "68719476772"  [ label = "AST: "] 
+  "30064771072" -> "68719476773"  [ label = "AST: "] 
+  "111669149753" -> "115964117024"  [ label = "DDG: "] 
+  "111669149753" -> "115964117023"  [ label = "DDG: "] 
+}

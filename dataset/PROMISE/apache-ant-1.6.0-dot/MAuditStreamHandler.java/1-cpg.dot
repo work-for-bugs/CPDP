@@ -1,0 +1,17 @@
+digraph "setProcessInputStream" {  
+"111669149697" [label = <(METHOD,setProcessInputStream)<SUB>128</SUB>> ]
+"115964116998" [label = <(PARAM,this)<SUB>128</SUB>> ]
+"115964116999" [label = <(PARAM,OutputStream os)<SUB>128</SUB>> ]
+"25769803777" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>128</SUB>> ]
+"133143986184" [label = <(MODIFIER,PUBLIC)> ]
+"133143986185" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018881" [label = <(METHOD_RETURN,void)<SUB>128</SUB>> ]
+  "111669149697" -> "115964116998"  [ label = "AST: "] 
+  "111669149697" -> "115964116999"  [ label = "AST: "] 
+  "111669149697" -> "25769803777"  [ label = "AST: "] 
+  "111669149697" -> "133143986184"  [ label = "AST: "] 
+  "111669149697" -> "133143986185"  [ label = "AST: "] 
+  "111669149697" -> "128849018881"  [ label = "AST: "] 
+  "111669149697" -> "115964116998"  [ label = "DDG: "] 
+  "111669149697" -> "115964116999"  [ label = "DDG: "] 
+}

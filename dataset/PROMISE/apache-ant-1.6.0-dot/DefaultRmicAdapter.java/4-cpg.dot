@@ -1,0 +1,18 @@
+digraph "getSkelClassSuffix" {  
+"111669149700" [label = <(METHOD,getSkelClassSuffix)<SUB>101</SUB>> ]
+"115964117003" [label = <(PARAM,this)<SUB>101</SUB>> ]
+"25769803780" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>101</SUB>> ]
+"146028888066" [label = <(RETURN,return &quot;_Skel&quot;;,return &quot;_Skel&quot;;)<SUB>102</SUB>> ]
+"90194313217" [label = <(LITERAL,&quot;_Skel&quot;,return &quot;_Skel&quot;;)<SUB>102</SUB>> ]
+"133143986188" [label = <(MODIFIER,PROTECTED)> ]
+"133143986189" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018884" [label = <(METHOD_RETURN,java.lang.String)<SUB>101</SUB>> ]
+  "111669149700" -> "115964117003"  [ label = "AST: "] 
+  "111669149700" -> "25769803780"  [ label = "AST: "] 
+  "111669149700" -> "133143986188"  [ label = "AST: "] 
+  "111669149700" -> "133143986189"  [ label = "AST: "] 
+  "111669149700" -> "128849018884"  [ label = "AST: "] 
+  "25769803780" -> "146028888066"  [ label = "AST: "] 
+  "146028888066" -> "90194313217"  [ label = "AST: "] 
+  "111669149700" -> "115964117003"  [ label = "DDG: "] 
+}

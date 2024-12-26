@@ -1,0 +1,18 @@
+digraph "getPostToken" {  
+"111669149715" [label = <(METHOD,getPostToken)<SUB>339</SUB>> ]
+"115964117055" [label = <(PARAM,this)<SUB>339</SUB>> ]
+"25769803807" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>339</SUB>> ]
+"146028888068" [label = <(RETURN,return &quot;&quot;;,return &quot;&quot;;)<SUB>340</SUB>> ]
+"90194313237" [label = <(LITERAL,&quot;&quot;,return &quot;&quot;;)<SUB>340</SUB>> ]
+"133143986222" [label = <(MODIFIER,PUBLIC)> ]
+"133143986223" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018899" [label = <(METHOD_RETURN,java.lang.String)<SUB>339</SUB>> ]
+  "111669149715" -> "115964117055"  [ label = "AST: "] 
+  "111669149715" -> "25769803807"  [ label = "AST: "] 
+  "111669149715" -> "133143986222"  [ label = "AST: "] 
+  "111669149715" -> "133143986223"  [ label = "AST: "] 
+  "111669149715" -> "128849018899"  [ label = "AST: "] 
+  "25769803807" -> "146028888068"  [ label = "AST: "] 
+  "146028888068" -> "90194313237"  [ label = "AST: "] 
+  "111669149715" -> "115964117055"  [ label = "DDG: "] 
+}

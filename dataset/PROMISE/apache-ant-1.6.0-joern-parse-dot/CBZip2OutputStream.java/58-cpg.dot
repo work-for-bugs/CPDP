@@ -1,0 +1,16 @@
+digraph "&lt;operator&gt;.greaterEqualsThan" {  
+"111669149754" [label = <(METHOD,&lt;operator&gt;.greaterEqualsThan)> ]
+"115964117101" [label = <(PARAM,p1)> ]
+"115964117102" [label = <(PARAM,p2)> ]
+"25769804070" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018938" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149754" -> "115964117101"  [ label = "AST: "] 
+  "111669149754" -> "25769804070"  [ label = "AST: "] 
+  "111669149754" -> "115964117102"  [ label = "AST: "] 
+  "111669149754" -> "128849018938"  [ label = "AST: "] 
+  "111669149754" -> "128849018938"  [ label = "CFG: "] 
+  "115964117101" -> "128849018938"  [ label = "DDG: p1"] 
+  "115964117102" -> "128849018938"  [ label = "DDG: p2"] 
+  "111669149754" -> "115964117101"  [ label = "DDG: "] 
+  "111669149754" -> "115964117102"  [ label = "DDG: "] 
+}

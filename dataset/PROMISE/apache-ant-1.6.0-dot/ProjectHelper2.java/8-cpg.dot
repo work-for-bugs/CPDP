@@ -1,0 +1,17 @@
+digraph "checkNamespace" {  
+"111669149704" [label = <(METHOD,checkNamespace)<SUB>398</SUB>> ]
+"115964117029" [label = <(PARAM,this)<SUB>398</SUB>> ]
+"115964117030" [label = <(PARAM,String uri)<SUB>398</SUB>> ]
+"25769803826" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>398</SUB>> ]
+"133143986202" [label = <(MODIFIER,PROTECTED)> ]
+"133143986203" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018888" [label = <(METHOD_RETURN,void)<SUB>398</SUB>> ]
+  "111669149704" -> "115964117029"  [ label = "AST: "] 
+  "111669149704" -> "115964117030"  [ label = "AST: "] 
+  "111669149704" -> "25769803826"  [ label = "AST: "] 
+  "111669149704" -> "133143986202"  [ label = "AST: "] 
+  "111669149704" -> "133143986203"  [ label = "AST: "] 
+  "111669149704" -> "128849018888"  [ label = "AST: "] 
+  "111669149704" -> "115964117029"  [ label = "DDG: "] 
+  "111669149704" -> "115964117030"  [ label = "DDG: "] 
+}

@@ -1,0 +1,12 @@
+digraph "checkConfiguration" {  
+"111669149742" [label = <(METHOD,checkConfiguration)> ]
+"115964117082" [label = <(PARAM,p1)> ]
+"25769803839" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018926" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149742" -> "115964117082"  [ label = "AST: "] 
+  "111669149742" -> "25769803839"  [ label = "AST: "] 
+  "111669149742" -> "128849018926"  [ label = "AST: "] 
+  "111669149742" -> "128849018926"  [ label = "CFG: "] 
+  "115964117082" -> "128849018926"  [ label = "DDG: p1"] 
+  "111669149742" -> "115964117082"  [ label = "DDG: "] 
+}

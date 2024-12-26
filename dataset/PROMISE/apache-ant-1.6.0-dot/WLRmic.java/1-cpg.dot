@@ -1,0 +1,18 @@
+digraph "getStubClassSuffix" {  
+"111669149697" [label = <(METHOD,getStubClassSuffix)<SUB>112</SUB>> ]
+"115964116993" [label = <(PARAM,this)<SUB>112</SUB>> ]
+"25769803788" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>112</SUB>> ]
+"146028888065" [label = <(RETURN,return &quot;_WLStub&quot;;,return &quot;_WLStub&quot;;)<SUB>113</SUB>> ]
+"90194313233" [label = <(LITERAL,&quot;_WLStub&quot;,return &quot;_WLStub&quot;;)<SUB>113</SUB>> ]
+"133143986178" [label = <(MODIFIER,PUBLIC)> ]
+"133143986179" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018881" [label = <(METHOD_RETURN,java.lang.String)<SUB>112</SUB>> ]
+  "111669149697" -> "115964116993"  [ label = "AST: "] 
+  "111669149697" -> "25769803788"  [ label = "AST: "] 
+  "111669149697" -> "133143986178"  [ label = "AST: "] 
+  "111669149697" -> "133143986179"  [ label = "AST: "] 
+  "111669149697" -> "128849018881"  [ label = "AST: "] 
+  "25769803788" -> "146028888065"  [ label = "AST: "] 
+  "146028888065" -> "90194313233"  [ label = "AST: "] 
+  "111669149697" -> "115964116993"  [ label = "DDG: "] 
+}

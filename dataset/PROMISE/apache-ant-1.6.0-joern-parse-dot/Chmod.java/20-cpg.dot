@@ -1,0 +1,8 @@
+digraph "&lt;operator&gt;.alloc" {  
+"111669149716" [label = <(METHOD,&lt;operator&gt;.alloc)> ]
+"25769803813" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018900" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149716" -> "25769803813"  [ label = "AST: "] 
+  "111669149716" -> "128849018900"  [ label = "AST: "] 
+  "111669149716" -> "128849018900"  [ label = "CFG: "] 
+}

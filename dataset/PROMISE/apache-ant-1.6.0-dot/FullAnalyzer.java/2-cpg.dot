@@ -1,0 +1,18 @@
+digraph "supportsFileDependencies" {  
+"111669149698" [label = <(METHOD,supportsFileDependencies)<SUB>165</SUB>> ]
+"115964116996" [label = <(PARAM,this)<SUB>165</SUB>> ]
+"25769803793" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>165</SUB>> ]
+"146028888064" [label = <(RETURN,return true;,return true;)<SUB>166</SUB>> ]
+"90194313226" [label = <(LITERAL,true,return true;)<SUB>166</SUB>> ]
+"133143986180" [label = <(MODIFIER,PROTECTED)> ]
+"133143986181" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018882" [label = <(METHOD_RETURN,boolean)<SUB>165</SUB>> ]
+  "111669149698" -> "115964116996"  [ label = "AST: "] 
+  "111669149698" -> "25769803793"  [ label = "AST: "] 
+  "111669149698" -> "133143986180"  [ label = "AST: "] 
+  "111669149698" -> "133143986181"  [ label = "AST: "] 
+  "111669149698" -> "128849018882"  [ label = "AST: "] 
+  "25769803793" -> "146028888064"  [ label = "AST: "] 
+  "146028888064" -> "90194313226"  [ label = "AST: "] 
+  "111669149698" -> "115964116996"  [ label = "DDG: "] 
+}

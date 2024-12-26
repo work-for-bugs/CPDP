@@ -1,0 +1,17 @@
+digraph "checkPermission" {  
+"111669149697" [label = <(METHOD,checkPermission)<SUB>74</SUB>> ]
+"115964116994" [label = <(PARAM,this)<SUB>74</SUB>> ]
+"115964116995" [label = <(PARAM,Permission perm)<SUB>74</SUB>> ]
+"25769803778" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>74</SUB>> ]
+"133143986178" [label = <(MODIFIER,PUBLIC)> ]
+"133143986179" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018881" [label = <(METHOD_RETURN,void)<SUB>74</SUB>> ]
+  "111669149697" -> "115964116994"  [ label = "AST: "] 
+  "111669149697" -> "115964116995"  [ label = "AST: "] 
+  "111669149697" -> "25769803778"  [ label = "AST: "] 
+  "111669149697" -> "133143986178"  [ label = "AST: "] 
+  "111669149697" -> "133143986179"  [ label = "AST: "] 
+  "111669149697" -> "128849018881"  [ label = "AST: "] 
+  "111669149697" -> "115964116994"  [ label = "DDG: "] 
+  "111669149697" -> "115964116995"  [ label = "DDG: "] 
+}

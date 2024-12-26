@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.postIncrement" {  
+"111669149734" [label = <(METHOD,&lt;operator&gt;.postIncrement)> ]
+"115964117066" [label = <(PARAM,p1)> ]
+"25769803847" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018918" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149734" -> "115964117066"  [ label = "AST: "] 
+  "111669149734" -> "25769803847"  [ label = "AST: "] 
+  "111669149734" -> "128849018918"  [ label = "AST: "] 
+  "111669149734" -> "128849018918"  [ label = "CFG: "] 
+  "115964117066" -> "128849018918"  [ label = "DDG: p1"] 
+  "111669149734" -> "115964117066"  [ label = "DDG: "] 
+}

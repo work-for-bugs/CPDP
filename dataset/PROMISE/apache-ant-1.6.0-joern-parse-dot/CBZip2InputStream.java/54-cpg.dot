@@ -1,0 +1,16 @@
+digraph "&lt;operators&gt;.assignmentXor" {  
+"111669149750" [label = <(METHOD,&lt;operators&gt;.assignmentXor)> ]
+"115964117068" [label = <(PARAM,p1)> ]
+"115964117069" [label = <(PARAM,p2)> ]
+"25769803954" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018934" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149750" -> "115964117068"  [ label = "AST: "] 
+  "111669149750" -> "25769803954"  [ label = "AST: "] 
+  "111669149750" -> "115964117069"  [ label = "AST: "] 
+  "111669149750" -> "128849018934"  [ label = "AST: "] 
+  "111669149750" -> "128849018934"  [ label = "CFG: "] 
+  "115964117068" -> "128849018934"  [ label = "DDG: p1"] 
+  "115964117069" -> "128849018934"  [ label = "DDG: p2"] 
+  "111669149750" -> "115964117068"  [ label = "DDG: "] 
+  "111669149750" -> "115964117069"  [ label = "DDG: "] 
+}

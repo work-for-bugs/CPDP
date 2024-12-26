@@ -1,0 +1,17 @@
+digraph "getJavaVersion" {  
+"111669149741" [label = <(METHOD,getJavaVersion)<SUB>826</SUB>> ]
+"25769803836" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>826</SUB>> ]
+"146028888083" [label = <(RETURN,return JavaEnvUtils.getJavaVersion();,return JavaEnvUtils.getJavaVersion();)<SUB>827</SUB>> ]
+"30064771290" [label = <(getJavaVersion,getJavaVersion())<SUB>827</SUB>> ]
+"68719476998" [label = <(IDENTIFIER,JavaEnvUtils,getJavaVersion())<SUB>827</SUB>> ]
+"133143986313" [label = <(MODIFIER,PUBLIC)> ]
+"133143986314" [label = <(MODIFIER,STATIC)> ]
+"128849018925" [label = <(METHOD_RETURN,java.lang.String)<SUB>826</SUB>> ]
+  "111669149741" -> "25769803836"  [ label = "AST: "] 
+  "111669149741" -> "133143986313"  [ label = "AST: "] 
+  "111669149741" -> "133143986314"  [ label = "AST: "] 
+  "111669149741" -> "128849018925"  [ label = "AST: "] 
+  "25769803836" -> "146028888083"  [ label = "AST: "] 
+  "146028888083" -> "30064771290"  [ label = "AST: "] 
+  "30064771290" -> "68719476998"  [ label = "AST: "] 
+}

@@ -1,0 +1,18 @@
+digraph "open" {  
+"111669149700" [label = <(METHOD,open)<SUB>116</SUB>> ]
+"115964116992" [label = <(PARAM,this)<SUB>116</SUB>> ]
+"25769803781" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>116</SUB>> ]
+"30064771086" [label = <(ensureOpened,this.ensureOpened())<SUB>117</SUB>> ]
+"68719476736" [label = <(IDENTIFIER,this,this.ensureOpened())<SUB>117</SUB>> ]
+"133143986189" [label = <(MODIFIER,PUBLIC)> ]
+"133143986190" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018884" [label = <(METHOD_RETURN,void)<SUB>116</SUB>> ]
+  "111669149700" -> "115964116992"  [ label = "AST: "] 
+  "111669149700" -> "25769803781"  [ label = "AST: "] 
+  "111669149700" -> "133143986189"  [ label = "AST: "] 
+  "111669149700" -> "133143986190"  [ label = "AST: "] 
+  "111669149700" -> "128849018884"  [ label = "AST: "] 
+  "25769803781" -> "30064771086"  [ label = "AST: "] 
+  "30064771086" -> "68719476736"  [ label = "AST: "] 
+  "111669149700" -> "115964116992"  [ label = "DDG: "] 
+}

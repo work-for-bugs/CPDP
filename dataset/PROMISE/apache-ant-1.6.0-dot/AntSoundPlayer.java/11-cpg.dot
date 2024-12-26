@@ -1,0 +1,17 @@
+digraph "taskStarted" {  
+"111669149707" [label = <(METHOD,taskStarted)<SUB>254</SUB>> ]
+"115964117022" [label = <(PARAM,this)<SUB>254</SUB>> ]
+"115964117023" [label = <(PARAM,BuildEvent event)<SUB>254</SUB>> ]
+"25769803806" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>254</SUB>> ]
+"133143986204" [label = <(MODIFIER,PUBLIC)> ]
+"133143986205" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018891" [label = <(METHOD_RETURN,void)<SUB>254</SUB>> ]
+  "111669149707" -> "115964117022"  [ label = "AST: "] 
+  "111669149707" -> "115964117023"  [ label = "AST: "] 
+  "111669149707" -> "25769803806"  [ label = "AST: "] 
+  "111669149707" -> "133143986204"  [ label = "AST: "] 
+  "111669149707" -> "133143986205"  [ label = "AST: "] 
+  "111669149707" -> "128849018891"  [ label = "AST: "] 
+  "111669149707" -> "115964117022"  [ label = "DDG: "] 
+  "111669149707" -> "115964117023"  [ label = "DDG: "] 
+}

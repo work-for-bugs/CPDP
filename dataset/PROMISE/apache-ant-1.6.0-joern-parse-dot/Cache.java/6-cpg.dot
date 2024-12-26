@@ -1,0 +1,18 @@
+digraph "iterator" {  
+"111669149702" [label = <(METHOD,iterator)<SUB>108</SUB>> ]
+"115964117001" [label = <(PARAM,this)<SUB>108</SUB>> ]
+"25769803782" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"133143986194" [label = <(MODIFIER,PUBLIC)> ]
+"133143986195" [label = <(MODIFIER,ABSTRACT)> ]
+"133143986196" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018886" [label = <(METHOD_RETURN,java.util.Iterator)<SUB>108</SUB>> ]
+  "111669149702" -> "115964117001"  [ label = "AST: "] 
+  "111669149702" -> "25769803782"  [ label = "AST: "] 
+  "111669149702" -> "133143986194"  [ label = "AST: "] 
+  "111669149702" -> "133143986195"  [ label = "AST: "] 
+  "111669149702" -> "133143986196"  [ label = "AST: "] 
+  "111669149702" -> "128849018886"  [ label = "AST: "] 
+  "111669149702" -> "128849018886"  [ label = "CFG: "] 
+  "115964117001" -> "128849018886"  [ label = "DDG: this"] 
+  "111669149702" -> "115964117001"  [ label = "DDG: "] 
+}

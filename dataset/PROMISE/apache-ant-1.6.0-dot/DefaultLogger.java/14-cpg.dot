@@ -1,0 +1,17 @@
+digraph "log" {  
+"111669149710" [label = <(METHOD,log)<SUB>339</SUB>> ]
+"115964117020" [label = <(PARAM,this)<SUB>339</SUB>> ]
+"115964117021" [label = <(PARAM,String message)<SUB>339</SUB>> ]
+"25769803810" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)<SUB>339</SUB>> ]
+"133143986213" [label = <(MODIFIER,PROTECTED)> ]
+"133143986214" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018894" [label = <(METHOD_RETURN,void)<SUB>339</SUB>> ]
+  "111669149710" -> "115964117020"  [ label = "AST: "] 
+  "111669149710" -> "115964117021"  [ label = "AST: "] 
+  "111669149710" -> "25769803810"  [ label = "AST: "] 
+  "111669149710" -> "133143986213"  [ label = "AST: "] 
+  "111669149710" -> "133143986214"  [ label = "AST: "] 
+  "111669149710" -> "128849018894"  [ label = "AST: "] 
+  "111669149710" -> "115964117020"  [ label = "DDG: "] 
+  "111669149710" -> "115964117021"  [ label = "DDG: "] 
+}
