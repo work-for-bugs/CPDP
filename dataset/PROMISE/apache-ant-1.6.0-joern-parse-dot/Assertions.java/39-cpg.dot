@@ -1,0 +1,12 @@
+digraph "&lt;operator&gt;.logicalNot" {  
+"111669149735" [label = <(METHOD,&lt;operator&gt;.logicalNot)> ]
+"115964117057" [label = <(PARAM,p1)> ]
+"25769803834" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"128849018919" [label = <(METHOD_RETURN,ANY)> ]
+  "111669149735" -> "115964117057"  [ label = "AST: "] 
+  "111669149735" -> "25769803834"  [ label = "AST: "] 
+  "111669149735" -> "128849018919"  [ label = "AST: "] 
+  "111669149735" -> "128849018919"  [ label = "CFG: "] 
+  "115964117057" -> "128849018919"  [ label = "DDG: p1"] 
+  "111669149735" -> "115964117057"  [ label = "DDG: "] 
+}

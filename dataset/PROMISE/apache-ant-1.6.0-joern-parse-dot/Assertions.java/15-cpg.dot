@@ -1,0 +1,18 @@
+digraph "getCommandPrefix" {  
+"111669149711" [label = <(METHOD,getCommandPrefix)<SUB>313</SUB>> ]
+"115964117017" [label = <(PARAM,this)<SUB>313</SUB>> ]
+"25769803804" [label = <(BLOCK,&lt;empty&gt;,&lt;empty&gt;)> ]
+"133143986210" [label = <(MODIFIER,PUBLIC)> ]
+"133143986211" [label = <(MODIFIER,ABSTRACT)> ]
+"133143986212" [label = <(MODIFIER,VIRTUAL)> ]
+"128849018895" [label = <(METHOD_RETURN,java.lang.String)<SUB>313</SUB>> ]
+  "111669149711" -> "115964117017"  [ label = "AST: "] 
+  "111669149711" -> "25769803804"  [ label = "AST: "] 
+  "111669149711" -> "133143986210"  [ label = "AST: "] 
+  "111669149711" -> "133143986211"  [ label = "AST: "] 
+  "111669149711" -> "133143986212"  [ label = "AST: "] 
+  "111669149711" -> "128849018895"  [ label = "AST: "] 
+  "111669149711" -> "128849018895"  [ label = "CFG: "] 
+  "115964117017" -> "128849018895"  [ label = "DDG: this"] 
+  "111669149711" -> "115964117017"  [ label = "DDG: "] 
+}
