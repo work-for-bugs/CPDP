@@ -84,4 +84,36 @@ class GCN(nn.Module):
         outputs = nn.Softmax(dim=1)(outputs)
         return outputs
     
-    
+
+# 加载图数据
+graph_data = torch.load("../preprocess/graph_data.pt")
+print("Loaded graph data:", graph_data)
+# 检查图数据
+print("Node features shape:", graph_data.x.shape)
+print("Edge index shape:", graph_data.edge_index.shape)
+
+input_dim = graph_data.x.shape[1]
+hidden_dim = 64
+output_dim = 2
+model = GCN(input_dim, hidden_dim, output_dim)
+
+# 定义优化器
+optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
+
+loss_fn = torch.nn.CrossEntropyLoss()  # 假设是分类任务
+
+# 训练循环
+model.train()
+for epoch in range(50):
+    optimizer.zero_grad()
+    out = model(graph_data)  # 前向传播
+    loss = loss_fn(out, graph_data.y)  # 计算损失
+    loss.backward()  # 反向传播
+    optimizer.step()  # 更新参数
+    print(f'Epoch {epoch + 1}, Loss: {loss.item()}')
+
+# 模型评估
+model.eval()
+with torch.no_grad():
+    pred = model(graph_data).argmax(dim=1)
+    print("Predictions:", pred)
