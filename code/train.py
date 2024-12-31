@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch_geometric.data import Data
 from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score
-from tempModel import GCN # 模型
+from model.tempModel import GCN # 模型
 
 
 
