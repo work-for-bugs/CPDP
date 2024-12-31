@@ -14,7 +14,7 @@ ast_output_path = "../../dataset/PROMISE/apache-ant-1.6.0-ast"
 
 # 确保输出路径存在
 os.makedirs(output_path, exist_ok=True)
-os.makedirs(graphml_output_path, exist_ok=True)
+# os.makedirs(graphml_output_path, exist_ok=True)
 
 def to_graphml():
     # 执行命令将 CPG 转换为 GraphML
