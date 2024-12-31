@@ -7,4 +7,7 @@ torch-geometric
 gensim
 graphviz
 python-graphviz
+pygraphviz
 networkx
+transformers
+minepy
